@@ -1,5 +1,11 @@
+@font-face {
+  font-family: Roboto-Black;
+  src: url('../src/font/Roboto-Black.ttf');
+}
+
 body{
     margin: 0;
+    font-family: Roboto-Black;
 }
 
 ::-webkit-scrollbar {
@@ -50,4 +56,136 @@ header{
     background-color: #CAA892;
     color: #FFFFFF;
     border: none;
+}
+
+.infoModalInteriorP{
+  width: 186px;
+  height: 27px;
+  margin: 100px 0px 0px 50px;
+  font-size: 20px;
+  color: #646464;
+  line-height: 27.24px;
+}
+
+.infoModalInteriorH1{
+  width: 549px;
+  height: 156px;
+  margin: 20px 0px 0px 50px;
+  font-size: 72px;
+  line-height: 78px;
+  color: #212121;
+}
+
+.infoModalInteriorP2{
+  width: 603px;
+  height: 90px;
+  margin: 20px 0px 0px 50px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #646464;
+}
+
+.infoModalInteriorButton{
+  width: 202px;
+  height: 78px;
+  margin: 87px 0px 0px 50px;
+  border-radius: 20px 0px 20px 0px;
+  background-color: #37806B;
+  text-align: center;
+  font-size: 18px;
+  line-height: 78px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.containerModalInterior{
+  font-family: Roboto-Black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgModalInterior{
+  border-radius: 100px 0px 100px 0px;
+  margin: 50px 0px;
+}
+
+/* Frame2 */
+
+.whatWeDoP{
+  width: 129px;
+  height: 28px;
+  margin: 200px 0px 0px 50px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #646464;
+}
+
+.whatWeDoH2{
+  width: 276px;
+  height: 78px;
+  margin: 20px 0px 0px 50px;
+  font-size: 48px;
+  line-height: 78px;
+  color: #212121;
+}
+
+.containerBlockWhatWeDo{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Roboto-Black;
+}
+
+.interiorBlock{
+  width: 425px;
+  height: 173px;
+  margin: 50px 0px 0px 50px;
+  border-radius: 60px 0px 60px 0px;
+  box-shadow: 11px 4px 38px -4px rgba(0,0,0,0.34);
+  padding: 10px;
+}
+
+.ArchitectureBlock{
+  width: 425px;
+  height: 173px;
+  margin: 50px 0px 0px 50px;
+  border-radius: 60px 0px 60px 0px;
+  box-shadow: 11px 4px 38px -4px rgba(0,0,0,0.34);
+  padding: 10px;
+  background-color: rgba(202, 168, 146, 1);
+  color: #FFFFFF;
+}
+
+.PlanningBlock{
+  width: 425px;
+  height: 173px;
+  margin: 50px 0px 0px 50px;
+  border-radius: 60px 0px 60px 0px;
+  box-shadow: 11px 4px 38px -4px rgba(0,0,0,0.34);
+  padding: 10px;
+}
+
+.imgInteriorBlock{
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.imgArchitectureBlock{
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.imgPlanningBlock{
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.interiorBlock{
+  color: rgba(100, 100, 100, 1);
+}
+
+.PlanningBlockP{
+  color: rgba(100, 100, 100, 1);
 }
