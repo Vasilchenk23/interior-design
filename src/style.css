@@ -189,3 +189,78 @@ header{
 .PlanningBlockP{
   color: rgba(100, 100, 100, 1);
 }
+
+/* Frame3 */
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 600px;
+  width: 80%;
+  margin: auto; 
+  margin-top: 100px;
+}
+
+.imgBlock{
+  border-radius: 100px 0px 100px 0px;
+  margin-top: 50px;
+}
+
+.imgBlock2{
+  border-radius: 100px 0px 100px 0px;
+}
+
+.infoBlockP{
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  color: rgba(100, 100, 100, 1);
+}
+
+.infoBlockH2{
+  width: 490px;
+  height: 114px;
+  font-size: 48px;
+  line-height: 57px;
+  color: rgba(33, 33, 33, 1);
+}
+
+.infoBlockP2{
+  width: 544px;
+  height: 240px;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(100, 100, 100, 1);
+}
+
+.infoBlockButton{
+  width: 142px;
+  height: 42px;
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(55, 128, 107, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  border: none;
+}
+
+.infoBlock2H2{
+  font-size: 150px;
+  margin: 0;
+}
+
+.infoBlock2H3{
+  width: 528px;
+  height: 195px;
+  font-size: 50px;
+  color: rgba(33, 33, 33, 1);
+}
+
+.infoBlock2Button{
+  width: 142px;
+  height: 42px;
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(55, 128, 107, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  border: none;
+}
