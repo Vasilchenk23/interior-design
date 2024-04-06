@@ -264,3 +264,149 @@ header{
   font-size: 16px;
   border: none;
 }
+
+/* Frame 4 */
+
+.BlogP{
+  width: 134px;
+  height: 28px;
+  display: flex;
+  margin: 0 auto;
+  font-size: 20px;
+  color: rgba(100, 100, 100, 1);
+  font-family: Roboto-Black;
+}
+
+.BlogH3{
+  width: 341px;
+  height: 28px;
+  font-size: 48px;
+  color: rgba(17, 17, 17, 1);
+  display: flex;
+  margin: 0 auto;
+  font-family: Roboto-Black;
+}
+
+.containerBlog{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Roboto-Black;
+  margin-top: 50px;
+}
+
+.block1H4{
+  width: 400px;
+  height: 28px;
+  font-size: 30px;
+  color: rgba(33, 33, 33, 1);
+}
+
+.block1P{
+  width: 603px;
+  height: 56px;
+  font-size: 18px;
+  color: rgba(100, 100, 100, 1);
+}
+
+.block1Button{
+  width: 271px;
+  height: 53px;
+  border-radius: 25px 0px 25px 0px;
+  background-color: rgba(55, 128, 107, 1);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.block2H4{
+  width: 606px;
+  height: 28px;
+  font-size: 30px;
+  color: rgba(33, 33, 33, 1);
+}
+
+.block2P{
+  width: 603px;
+  height: 56px;
+  font-size: 18px;
+  color: rgba(100, 100, 100, 1);
+}
+
+.block2Button{
+  width: 271px;
+  height: 53px;
+  border-radius: 25px 0px 25px 0px;
+  background-color: rgba(55, 128, 107, 1);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  margin-top: -3px;
+}
+
+/* Frame 5 */
+
+.signUpContainer{
+  font-family: Roboto-Black;
+  margin-top: 400px;
+}
+
+.SignUpH4{
+  width: 100%;
+  height: 28px;
+  font-size: 48px;
+  color: rgba(33, 33, 33, 1);
+  text-align: center;
+}
+
+.SignUpP{
+  width: 100%;
+  text-align: center;
+  height: 56px;
+  font-size: 18px;
+  color: rgba(100, 100, 100, 1);
+  margin-top: 50px;
+}
+
+.line{
+  width: 461px;
+  height: 1px;
+  background-color: rgba(196, 196, 196, 1);
+  display: flex;
+  margin: 50px auto;
+}
+
+.inputBlock{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin-top: 50px;
+}
+
+input{
+  width: 60%;
+  height: 60px;
+  background-color: rgba(238, 238, 238, 1);
+  border-radius: 25px 0px 0px 0px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 0px 0px 0px 10px;
+}
+
+::placeholder{
+  width: 227px;
+  font-size: 18px;
+  color: rgba(100, 100, 100, 1);
+  padding: 0px 0px 0px 10px;
+}
+
+.inputBlockButton{
+  width: 20%;
+  height: 60px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(55, 128, 107, 1);
+  border-radius: 0px 25px 0px 0px;
+  border: none;
+}
